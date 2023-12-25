@@ -97,21 +97,20 @@ header .join-form .input-group{
   padding-top: 100px;
 }
 
-.banner-title{
-  /* width: fit-content; */
+.banner-title, .title-bg-gradient{
   position: relative;
   margin-bottom: 20px;
 }
 
-.banner-title::after {
+.banner-title::after, .title-bg-gradient::after {
   content: url(../images/baner-txt-bg.png);
   position: absolute;
   top: -100%;
-  left: -26%;
+  left: 0;
   z-index: 1;
 }
 
-.banner-title h1{
+.banner-title h1,.title-bg-gradient h1 {
   font-size: 54px;
   font-weight: 600;
   color: var(--text-color);
@@ -119,7 +118,7 @@ header .join-form .input-group{
   z-index: 5;
 }
 
-.banner-title p {
+.banner-title p , .title-bg-gradient p{
   font-size: 27px;
   font-weight: 500;
   color: var(--text-grey);
@@ -245,8 +244,8 @@ img{
     background-image: url(../images/plan-bg.png);
       background-size: auto;
       background-repeat: no-repeat;
-      padding-bottom: 100px;
       margin-top: -360px;  
+      padding-bottom: 150px;
 }
 
 .plan-section .section-img {
@@ -294,6 +293,7 @@ img{
     background-size: auto;
     background-repeat: no-repeat;
     padding-bottom: 160px;
+    margin-top: -360px;
 }
 
 .global-section .text-box-left{
@@ -322,5 +322,52 @@ img{
   background-image: url(../images/privacy-bg.png);
     background-size: auto;
     background-repeat: no-repeat;
+    padding-bottom: 100px;
     
+}
+
+.privacy-section .text-box p{
+  font-size: 23px;
+}
+
+.privacy-section .section-img {
+  position: relative;
+  left: 30px;
+}
+
+.privacy-section .text-box-left{
+  padding-top: 70px;
+}
+
+/* footer */
+.footer-before{
+  margin-top: 50px;
+}
+
+.footer-before .join-form{
+  max-width: 471px;
+  margin-right: 150px;
+}
+
+footer{
+  background: linear-gradient(#20293d,#131928);
+  border-radius: 17px;
+  padding-top: 75px;
+  padding-bottom: 90px;
+  margin-bottom: 20px;
+  margin-top: 70px;
+}
+
+footer .section-img {
+  position: relative;
+}
+
+footer .section-img img{
+  position: absolute;
+  top: -340px;
+}
+
+
+.footer-widget h3, .footer-widget ul li a{
+  color: var(--text-color);
 }
