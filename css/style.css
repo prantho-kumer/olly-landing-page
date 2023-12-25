@@ -197,3 +197,18 @@ img{
         left: -100px;
         top: 50px;
 }
+
+/* connect-section */
+.connect-section{
+  background-image: url(../images/connect-bg.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    margin-top: -82px;
+}
+
+.connect-section .section-img {
+    width: 640px;
+      position: relative;
+      left: 0;
+      top: -50px;
+}
