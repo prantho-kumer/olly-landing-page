@@ -653,14 +653,34 @@ span.menu-badge {
   .plan-section,
   .learn-section,
   .global-section {
-    border: 1px solid var(--section-border-color);
+    /* border: 1px solid var(--section-border-color); */
     border-radius: 15px;
     padding-bottom: 50px;
-    background: linear-gradient(#1c2335, transparent);
+    /* background: linear-gradient(#1c2335, transparent); */
     margin: unset;
     margin: 30px 0;
     padding: 50px 20px;
   }
+
+
+        .every-section{
+          background-position: top;
+        }
+        .centralise-section{
+          background-position: bottom;
+        }
+        .connect-section{
+          background-position: top;
+        }
+        .plan-section{
+          background-position: bottom;
+        }
+        .learn-section{
+          background-position: top;
+        }
+        .global-section{
+          background-position: bottom;
+        }
 
 
   .every-section {
@@ -680,6 +700,11 @@ span.menu-badge {
     margin-top: 0;
     top: 0;
     left: 0;
+  }
+
+  .learn-section .col-md-7{
+    display: flex;
+    align-items: center;
   }
 
   .privacy-section {
@@ -712,7 +737,7 @@ span.menu-badge {
 
     footer .section-img img {
       position: absolute;
-      top: -450px;
+      top: -370px;
       left: 0;
   }
 
