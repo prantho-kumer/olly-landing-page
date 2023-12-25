@@ -72,6 +72,7 @@ header .join-form .input-group {
   color: var(--text-grey);
   padding: 16.5px 16px;
   padding-left: 40px;
+  padding-right: 200px;
   border-radius: 50px !important;
   width: 100%;
   border: 1px solid #606369;
@@ -538,17 +539,23 @@ span.menu-badge {
     padding-bottom: 0;
   }
 
+  .every-section .text-box {
+    padding-top: 70px;
+  }
+
 
   .centralise-section .text-box {
 
     top: -70px;
   }
 
+
   .centralise-section .section-img {
     left: 0;
   }
 
-  .connect-section {
+  .connect-section,
+  .learn-section {
     padding: 73px 0;
   }
 
@@ -558,26 +565,46 @@ span.menu-badge {
     padding-left: 125px;
   }
 
-.connect-section .section-img {
-  left: -30px;
-}
+  .connect-section .section-img {
+    left: -30px;
+  }
 
-.plan-section .section-img {
-  position: relative;
-  right: 0;
-  top: 110px;
-}
+  .plan-section .section-img {
+    position: relative;
+    right: 0;
+    top: 110px;
+  }
 
-.plan-section {
-  margin-top: -240px;
-  padding-bottom: 15px;
-}
+  .plan-section {
+    margin-top: -240px;
+    padding-bottom: 15px;
+  }
 
+  .plan-section .section-img {
+    top: 0;
+  }
+
+  .learn-section .section-img {
+    top: -60px;
+  }
+
+
+  .plan-section .text-box-left {
+
+    top: -40px;
+  }
+
+  .plan-section p.app-icon {
+    top: -40px;
+  }
 
 }
 
 
 @media only screen and (max-width: 768px) {
+  header {
+      padding-top: 20px;
+    }
 
   .banner-title::after,
   .title-bg-gradient::after {
@@ -609,6 +636,37 @@ span.menu-badge {
   }
 
 
+  .section-img {
+    left: 0 !important;
+    top: 0 !important;
+  }
+
+
+  .every-section,
+  .centralise-section,
+  .connect-section,
+  .plan-section,
+  .learn-section,
+  .global-section {
+    border: 1px solid var(--section-border-color);
+    border-radius: 15px;
+    padding-bottom: 50px;
+    background: linear-gradient(#1c2335, transparent);
+    margin: unset;
+    margin: 30px 0;
+    padding: 50px 20px;
+  }
+
+
+  .every-section {
+    margin-top: 150px;
+  }
+
+  .centralise-section .text-box {
+    margin-top: 0;
+    top: 0;
+    left: 0;
+  }
 
   .privacy-section {
     border: 1px solid var(--section-border-color);
@@ -617,4 +675,135 @@ span.menu-badge {
     background: linear-gradient(#1c2335, transparent);
 
   }
+
+  .privacy-section .text-box-left {
+    padding-top: 0;
+  }
+
+  .plan-section .section-img {
+    max-width: 220px;
+    margin: auto;
+  }
+
+  .text-box {
+    text-align: center;
+  }
+
+  .text-shadow h2.title {
+
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+    footer .section-img img {
+      position: absolute;
+      top: -450px;
+      left: 0;
+  }
+
+  .footer-before .join-form {
+
+    margin-right: unset;
+  }
+
+  .join-form input.form-control {
+    padding-left: 16px;
+  }
+
+  .footer-widget {
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .footer-widget .app-btn {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .privacy-section .align-items-center,
+  .align-items-end {
+    justify-content: center;
+  }
+
+
+  .global-section p.language-icon {
+    top: 15px;
+    left: 0;
+  }
+
+  .gradient-shadow {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .side-explainer-col .title-bg-gradient h1 {
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+  .side-explainer-col .title-bg-gradient p {
+    text-align: center;
+  }
+
+    .side-explainer .title-bg-gradient::after {
+      top: -18px
+    }
+
+  .side-explainer-col .title-bg-gradient::after {
+    top: -70px;
+    left: 0;
+    background-size:contain ;
+  }
+
+    .title-bg-gradient h1 {
+      font-size: 1.5em;
+    }
+.plan-section p.app-icon {
+  top: -40px;
+  margin: auto;
+}
+
+.side-explainer-col,.side-explainer {
+  margin-top: 20px;
+}
+
+.banner-title p,
+.title-bg-gradient p {
+  font-size: .9em;
+}
+
+.privacy-section{
+  margin-bottom: 20px;
+}
+
+.join-form input.form-control{
+  padding-right: 180px;
+}
+
+.join-form button {
+  padding: 16.5px 13px;
+  width: 180px;
+}
+
+.justify-content-end{
+  justify-content: center !important;
+}
+
+.logo {
+  text-align: center;
+}
+section.container.privacy-section {
+  overflow: hidden;
+}
+
+.section-img{
+  text-align: center;
+}
+
+footer .col-lg-6{
+  position: relative;
+}
+
 }
