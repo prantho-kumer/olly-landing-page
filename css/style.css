@@ -315,16 +315,17 @@ img{
 
 .global-section p.language-icon {
   position: relative;
-  top: 120px;
+  top: 60px;
+  left: 60px;
+  max-width: 222px;
 }
 
 /* privacy-section */
 .privacy-section{
-  border: 1px solid var(--section-border-color);
-  border-radius: 7px 7px 100px 100px;
-    padding-bottom: 50px;
-    background: linear-gradient(#1c2335, transparent);
-    
+  position: relative;
+  padding-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 200px;
 }
 
 .privacy-section .text-box p{
@@ -333,7 +334,9 @@ img{
 
 .privacy-section .section-img {
   position: relative;
-  left: 30px;
+  left: 50px;
+  top: 40px;
+  max-width: 222px;
 }
 
 .privacy-section .text-box-left{
@@ -449,4 +452,16 @@ footer .section-img img{
 
 .footer-widget h3, .footer-widget ul li a{
   color: var(--text-color);
+}
+
+
+/* responsive code */
+@media only screen and (max-width: 767px) {
+.privacy-section {
+    border: 1px solid var(--section-border-color);
+    border-radius: 7px 7px 100px 100px;
+    padding-bottom: 50px;
+    background: linear-gradient(#1c2335, transparent);
+
+  }
 }
