@@ -13,6 +13,7 @@
  body{
   font-family: 'Poppins', sans-serif;
   background-color: var(--background-color);
+  font-size: 16px;
  }
 
  .container {
@@ -25,7 +26,7 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 16px;
+  font-size: 1em;
   font-weight: 600;
 }
 
@@ -111,7 +112,7 @@ header .join-form .input-group{
 }
 
 .banner-title h1,.title-bg-gradient h1 {
-  font-size: 54px;
+  font-size: 3.375em;
   font-weight: 600;
   color: var(--text-color);
   position: relative;
@@ -119,7 +120,7 @@ header .join-form .input-group{
 }
 
 .banner-title p , .title-bg-gradient p{
-  font-size: 27px;
+  font-size: 1.6875em;
   font-weight: 500;
   color: var(--text-grey);
 }
@@ -129,7 +130,7 @@ header .join-form .input-group{
 }
 
 .text-box p {
-  font-size: 20px;
+  font-size: 1.25em;
   color: var(--text-color);
   margin-top: 10px;
 }
@@ -162,7 +163,7 @@ img{
 
 .gradient-shadow {
   font-weight: 600;
-  font-size: 54px;
+  font-size: 3.375em;
   color: var(--text-color);
   background: linear-gradient(to right, #f7b500 0%, #b620e0 50%, #32c5ff 100%);
   background-clip: text;
@@ -178,14 +179,14 @@ img{
 
 .text-shadow h2.title {
   font-weight: 600;
-  font-size: 54px;
+  font-size: 3.375em;
   color: var(--text-color);
   position: absolute;
   top: 0;
 }
 
 .every-section .text-box p {
-  font-size: 25px;
+  font-size: 1.5em;
 }
 
 .every-section .section-img {
@@ -211,7 +212,7 @@ img{
 }
 
 .centralise-section .text-box p {
-  font-size: 20px;
+  font-size: 1.25em;
 }
 
 .centralise-section .section-img{
@@ -236,7 +237,7 @@ img{
       top: -60px;
 }
 .connect-section .text-box p {
-  font-size: 20px;
+  font-size: 1.25em;
 }
 
 /* plan-section */
@@ -260,7 +261,7 @@ img{
     
 }
 .plan-section .text-box p {
-  font-size: 25px;
+  font-size: 1.5625em;
 }
 
 .plan-section p.app-icon {
@@ -277,7 +278,7 @@ img{
 }
 
 .learn-section .text-box p {
-  font-size: 25px;
+  font-size: 1.5625em;
 }
 
 .learn-section .section-img {
@@ -319,7 +320,7 @@ img{
 
 /* privacy-section */
 .privacy-section{
-  background-image: url(../images/privacy-bg.png);
+  background-image: url(../images/privacy-bg.svg);
     background-size: auto;
     background-repeat: no-repeat;
     padding-bottom: 100px;
@@ -327,7 +328,7 @@ img{
 }
 
 .privacy-section .text-box p{
-  font-size: 23px;
+  font-size: 1.4375em;
 }
 
 .privacy-section .section-img {
@@ -365,6 +366,14 @@ footer .section-img {
 footer .section-img img{
   position: absolute;
   top: -340px;
+}
+
+.footer-widget ul{
+  padding: 0;
+}
+
+.footer-widget ul li a{
+  text-decoration: none;
 }
 
 
