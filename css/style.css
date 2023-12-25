@@ -46,6 +46,10 @@
   border: 1px solid var(--btn-border-color);
 }
 
+.text-grey{
+  color: var(--text-grey);
+}
+
 /* header */
 
 header{
@@ -108,7 +112,7 @@ header .join-form .input-group{
 .banner-title::after, .title-bg-gradient::after {
   content: url(../images/baner-txt-bg.png);
   position: absolute;
-  top: -100%;
+  top: -140%;
   left: 0;
   z-index: 1;
 }
@@ -336,9 +340,79 @@ img{
   padding-top: 70px;
 }
 
+/* .side explainer */
+.side-explainer{
+  margin-top: 100px;
+}
+
+.side-explainer-col{
+  margin-top: 100px;
+}
+
+
+.side-explainer-col .title-bg-gradient h1{
+  font-size: 2em;
+}
+
+.side-explainer-col .title-bg-gradient p{
+  font-size: 1em;
+}
+
+.side-explainer .title-bg-gradient::after{
+  top: -130%;
+}
+
+.side-explainer-col .title-bg-gradient::after{
+  content: "";
+    background: url(../images/baner-txt-bg.png);
+    background-repeat: no-repeat;
+      position: absolute;
+      display: block;
+      width: 100%;
+      height: 100%;
+      top: -50px;
+      left: -90px;
+      background-position: center center;
+      background-size: cover;
+      z-index: -1;
+      
+}
+
+
+
+.side-explainer-col-3 .title-bg-gradient h1 {
+  font-size: 1.5em;
+}
+
+.side-explainer-col-3 .title-bg-gradient p {
+  font-size: 1em;
+}
+
+.side-explainer-col-3 .title-bg-gradient::after{
+  top: -80px;
+  left: 0;
+  background-size: contain;
+}
+
+.side-explainer-col-3 .side-explainer-img{
+  max-width: 177px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.side-explainer-col-3 .text-grey {
+  padding: 0 20px;
+  margin-top: 20px;
+}
+
+
+
+
+
+
 /* footer */
 .footer-before{
-  margin-top: 50px;
+  margin-top: 250px;
 }
 
 .footer-before .join-form{
