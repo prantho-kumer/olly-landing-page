@@ -226,7 +226,7 @@ img{
 
 /* connect-section */
 .connect-section{
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .connect-section .section-img {
@@ -267,7 +267,7 @@ img{
 /* learn-section */
 .learn-section{
     padding-bottom: 160px;
-    margin-top: 25px;
+    margin-top: 30px;
 }
 
 .learn-section .text-box p {
@@ -449,11 +449,30 @@ footer .section-img img{
   text-decoration: none;
 }
 
+.footer-widget h3{
+  font-size: 1.25em;
+}
+
 
 .footer-widget h3, .footer-widget ul li a{
   color: var(--text-color);
 }
 
+.footer-widget a {
+  font-size: 1em;
+}
+
+span.menu-badge {
+  color: #D8D8D8;
+  padding: 3px 10px;
+  font-size: 0.75em;
+  margin-left: 5px;
+  position: relative;
+  border: 1px solid var(--btn-border-color);
+  border-radius: 50px;
+  background: linear-gradient(var(--section-gradient-bg));
+  top: -10px;
+}
 
 /* responsive code */
 @media only screen and (max-width: 767px) {
