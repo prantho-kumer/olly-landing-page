@@ -1,0 +1,199 @@
+:root {
+  --background-color: #131928;
+  --text-color: #E8E4FF;
+  --text-grey: #7a7b90;  
+}
+
+/* background: linear-gradient(to right, #f7b500 0%, #b620e0 50%, #32c5ff 100%); */
+
+
+
+ body{
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--background-color);
+ }
+
+ .container {
+   max-width: 1146px;
+ }
+
+.gradient-text {
+  text-transform: uppercase;
+  background: linear-gradient(to right, #f7b500 0%, #b620e0 50%, #32c5ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* header */
+
+header{
+  padding-top: 80px;
+}
+
+.logo img{
+  max-width: 95px;
+}
+
+header .join-form{
+  max-width: 471px;
+}
+
+header .join-form .input-group{
+  position: relative;
+}
+
+.join-form input.form-control {
+  color: var(--text-grey);
+  padding: 16.5px 16px;
+  padding-left: 40px;
+  border-radius: 50px !important;
+  width: 100%;
+  border: 1px solid #606369;
+  position: relative;
+  z-index: 1;
+}
+
+.join-form input.form-control::placeholder{
+  color: var(--text-grey);
+}
+
+.join-form button{
+  padding: 16.5px 16px;
+  border-radius: 50px !important;
+  width: 199px;
+  position: absolute !important;
+  right: 0 !important;
+  z-index: 9999;
+  border: 1px solid #606369;
+}
+
+.join-form button:hover {
+
+  border: 1px solid var(--text-grey);
+}
+
+/* banner */
+
+.banner{
+  padding-top: 100px;
+}
+
+.banner-title{
+  /* width: fit-content; */
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.banner-title::after {
+  content: url(../images/baner-txt-bg.png);
+  position: absolute;
+  top: -100%;
+  left: -26%;
+  z-index: 1;
+}
+
+.banner-title h1{
+  font-size: 54px;
+  font-weight: 600;
+  color: var(--text-color);
+  position: relative;
+  z-index: 5;
+}
+
+.banner-title p {
+  font-size: 27px;
+  font-weight: 500;
+  color: var(--text-grey);
+}
+
+.banner-btn {
+  margin-top: -160px;
+}
+
+/* every-section */
+.every-section{
+  background-image: url(../images/every-sec-bg.png);
+  background-size: auto;
+  margin-top: 100px;
+  background-repeat: no-repeat;
+}
+
+
+img{
+  max-width: 100%;
+}
+
+.text-box-left {
+  padding-top: 100px;
+  padding-left: 85px;
+}
+
+.text-shadow {
+  position: relative;
+}
+
+.text-shadow h2{
+  white-space: no-wrap;
+}
+
+.gradient-shadow {
+  font-weight: 600;
+  font-size: 54px;
+  color: var(--text-color);
+  background: linear-gradient(to right, #f7b500 0%, #b620e0 50%, #32c5ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: blur(15px);
+}
+
+.text-shadow h2:nth-child(2) {
+  position: absolute;
+  top: 0;
+}
+
+.text-shadow h2.title {
+  font-weight: 600;
+  font-size: 54px;
+  color: var(--text-color);
+  position: absolute;
+  top: 0;
+}
+
+.text-box p{
+  font-size: 20px;
+  color: var(--text-color);
+  margin-top: 35px;
+}
+
+.every-section .section-img {
+  width: 690px;
+  position: relative;
+  top: -66px;
+  left: -130px;
+}
+
+/* centralise-section */
+.centralise-section{
+  background-image: url(../images/centralise-bg.png);
+    background-size: auto;
+    margin-top: -330px;
+    background-repeat: no-repeat;
+    padding-bottom: 180px;
+}
+
+.centralise-section .text-box {
+      margin-top: 360px;
+        position: relative;
+        right: 110px;
+}
+
+.centralise-section .section-img{
+      width: 528px;
+        position: relative;
+        left: -100px;
+        top: 50px;
+}
