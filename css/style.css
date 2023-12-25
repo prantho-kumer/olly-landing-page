@@ -4,6 +4,8 @@
   --text-grey: #7a7b90;  
   --btn-text-color: #D8D8D8;
   --btn-border-color: #979797;
+  --section-border-color: #5e6068;
+  --section-gradient-bg: #1c2335, transparent;
 }
 
 /* background: linear-gradient(to right, #f7b500 0%, #b620e0 50%, #32c5ff 100%); */
@@ -112,7 +114,7 @@ header .join-form .input-group{
 }
 
 .banner-title h1,.title-bg-gradient h1 {
-  font-size: 3.375em;
+  font-size: 2.5em;
   font-weight: 600;
   color: var(--text-color);
   position: relative;
@@ -120,7 +122,7 @@ header .join-form .input-group{
 }
 
 .banner-title p , .title-bg-gradient p{
-  font-size: 1.6875em;
+  font-size: 1.25em;
   font-weight: 500;
   color: var(--text-grey);
 }
@@ -130,17 +132,16 @@ header .join-form .input-group{
 }
 
 .text-box p {
-  font-size: 1.25em;
+  font-size: 1em;
   color: var(--text-color);
-  margin-top: 10px;
+  margin-top: 20px;
 }
+
+
 
 /* every-section */
 .every-section{
-  background-image: url(../images/every-sec-bg.png);
-  background-size: auto;
   margin-top: 100px;
-  background-repeat: no-repeat;
 }
 
 
@@ -163,7 +164,7 @@ img{
 
 .gradient-shadow {
   font-weight: 600;
-  font-size: 3.375em;
+  font-size: 2.5em;
   color: var(--text-color);
   background: linear-gradient(to right, #f7b500 0%, #b620e0 50%, #32c5ff 100%);
   background-clip: text;
@@ -179,14 +180,14 @@ img{
 
 .text-shadow h2.title {
   font-weight: 600;
-  font-size: 3.375em;
+  font-size: 2.5em;
   color: var(--text-color);
   position: absolute;
   top: 0;
 }
 
 .every-section .text-box p {
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 .every-section .section-img {
@@ -198,10 +199,7 @@ img{
 
 /* centralise-section */
 .centralise-section{
-  background-image: url(../images/centralise-bg.png);
-    background-size: auto;
     margin-top: -330px;
-    background-repeat: no-repeat;
     padding-bottom: 180px;
 }
 
@@ -212,7 +210,7 @@ img{
 }
 
 .centralise-section .text-box p {
-  font-size: 1.25em;
+  font-size: 1em;
 }
 
 .centralise-section .section-img{
@@ -224,10 +222,7 @@ img{
 
 /* connect-section */
 .connect-section{
-  background-image: url(../images/connect-bg.png);
-    background-size: auto;
-    background-repeat: no-repeat;
-    margin-top: -82px;
+    margin-top: 10px;
 }
 
 .connect-section .section-img {
@@ -237,14 +232,11 @@ img{
       top: -60px;
 }
 .connect-section .text-box p {
-  font-size: 1.25em;
+  font-size: 1em;
 }
 
 /* plan-section */
 .plan-section{
-    background-image: url(../images/plan-bg.png);
-      background-size: auto;
-      background-repeat: no-repeat;
       margin-top: -360px;  
       padding-bottom: 150px;
 }
@@ -261,7 +253,7 @@ img{
     
 }
 .plan-section .text-box p {
-  font-size: 1.5625em;
+  font-size: 1em;
 }
 
 .plan-section p.app-icon {
@@ -270,15 +262,12 @@ img{
 
 /* learn-section */
 .learn-section{
-  background-image: url(../images/learn-bg.png);
-    background-size: auto;
-    background-repeat: no-repeat;
     padding-bottom: 160px;
-    margin-top: -70px;
+    margin-top: 25px;
 }
 
 .learn-section .text-box p {
-  font-size: 1.5625em;
+  font-size: 1em;
 }
 
 .learn-section .section-img {
@@ -289,12 +278,19 @@ img{
 }
 
 /* global-section */
-.global-section{
-  background-image: url(../images/global-bg.png);
-    background-size: auto;
-    background-repeat: no-repeat;
-    padding-bottom: 160px;
-    margin-top: -360px;
+.global-section {
+  position: relative;
+  padding-bottom: 160px;
+  margin-top: -360px;
+}
+
+.section-bg {
+  position: absolute;
+  z-index: -1;
+}
+
+.section-bg svg {
+  width: 100%;
 }
 
 .global-section .text-box-left{
@@ -320,15 +316,15 @@ img{
 
 /* privacy-section */
 .privacy-section{
-  background-image: url(../images/privacy-bg.svg);
-    background-size: auto;
-    background-repeat: no-repeat;
-    padding-bottom: 100px;
+  border: 1px solid var(--section-border-color);
+  border-radius: 7px 7px 100px 100px;
+    padding-bottom: 50px;
+    background: linear-gradient(#1c2335, transparent);
     
 }
 
 .privacy-section .text-box p{
-  font-size: 1.4375em;
+  font-size: 1em;
 }
 
 .privacy-section .section-img {
