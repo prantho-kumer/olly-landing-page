@@ -601,10 +601,15 @@ span.menu-badge {
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 991px) {
   header {
       padding-top: 20px;
     }
+
+        .section-img {
+          max-width: 300px;
+          margin: auto;
+        }
 
   .banner-title::after,
   .title-bg-gradient::after {
@@ -661,6 +666,15 @@ span.menu-badge {
   .every-section {
     margin-top: 150px;
   }
+
+  .every-section .col-md-6{
+    display: flex;
+    align-items: center;
+  }
+
+    .every-section .text-box{
+      padding-top: 0;
+    }
 
   .centralise-section .text-box {
     margin-top: 0;
@@ -806,4 +820,20 @@ footer .col-lg-6{
   position: relative;
 }
 
+.banner-title h1,
+.title-bg-gradient h1{
+  font-size: 1.5em;
+}
+
+}
+
+
+@media only screen and (max-width: 425px) {
+  .side-explainer-col .title-bg-gradient::after {
+      top: -50px;
+    }
+
+        .side-explainer-col .title-bg-gradient::after {
+          top: -70px;
+        }
 }
